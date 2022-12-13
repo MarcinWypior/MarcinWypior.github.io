@@ -1,0 +1,121 @@
+body{
+    display: grid; 
+    justify-content: center;
+}
+
+#timer{
+    position: absolute;
+  top:0;
+}
+
+.ball {
+    margin: 2px;
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: inset 0 0 20px #000000;
+}
+
+.ball:hover {
+       box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 1px;
+}
+
+.row{
+    position: relative;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    height: 6.4vh;
+border-style: solid;
+border-width: 2px;
+border-color: black;
+border-radius: 4px;
+padding: 5px;
+margin: 4px;
+    width: 350px;
+
+}
+
+
+.verificationButton{
+    /*position: relative;
+    top: 50%;
+    transform: translateY(-55%);*/
+    line-height: 28px;
+     margin: 0;
+    height: 30px;
+    width: 58px;
+    background-color: orange;
+  display: inline-block;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+    padding: 10px;*/
+    vertical-align: top;
+    margin-left: 25px;
+}
+
+
+.resultBall {
+    position: relative;
+    top: 50%;
+    transform: translateY(-20%);
+    margin: 1px;
+    height: 24px;
+    width: 24px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: inset 0 0 20px #000000;
+}
+
+.results {
+    position: relative;
+    height: 50px;
+    margin-left: 5%;
+     justify-content:flex-end;
+}
+
+.invisible{
+ display: none;
+}
+
+.answers{
+    font-size: 3.3vh;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 2px;
+    padding: 15px;
+     width: 353px;
+    border-radius: 5px;
+}
+
+.Alarm{
+    position: absolute;
+    margin: auto;
+    transform: translateX(-50%);
+    bottom: 8.5%;
+    left: 50%;
+    display: none;
+    background-color: white;
+    border-width: 2px;
+    border-radius: 2px;
+    border-style: solid;
+    padding: 2.5vh;
+    padding: 25px;
+     width: 353px;
+    height: 14vh;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.closeAlarm{
+ display: inline-block;
+}
+
+.AlarmMessage{
+    font-size: 6vh;
+}
