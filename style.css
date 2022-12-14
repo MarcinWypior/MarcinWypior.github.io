@@ -93,7 +93,7 @@ body{
     border-color: black;
     border-radius: 2px;
     padding: 15px;
-     width: 353px;
+     width: 44vh;
     border-radius: 5px;
 }
 
@@ -122,4 +122,6 @@ body{
 
 .AlarmMessage{
     font-size: 6vh;
+    width: 42vh;
+    height: 14vh;
 }
