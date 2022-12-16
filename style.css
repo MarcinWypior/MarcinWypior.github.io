@@ -31,7 +31,7 @@ body{
     height: 6.4vh;
     border-style: solid;
     border-width: 2px;
-    border-color: orange;
+    border-color: black;
     border-radius: 4px;
     padding: 0.5vh;
     margin: 0.4vh;
@@ -110,7 +110,7 @@ body{
     border-style: solid;
     padding: 2.5vh;
    /* padding: 25px;*/
-     width: 42vh;
+     width: 38vh;
     height: 14vh;
     align-content: center;
     vertical-align: middle;
@@ -122,6 +122,6 @@ body{
 
 .AlarmMessage{
     font-size: 6vh;
-    width: 42vh;
+    width: 38vh;
     height: 14vh;
 }

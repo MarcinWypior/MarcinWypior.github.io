@@ -359,39 +359,27 @@ function StopTimer() {
 
 
 function playSimpleClick() { 
-var simpleClick = document.getElementById("simpleClick"); 
-  if (simpleClick.paused) {
-        simpleClick.play();
-    }else{
-        simpleClick.currentTime = 0
-    }
+      
+  console.log("playSimpleClick");
+        
 } 
 
 function playError() { 
-var error = document.getElementById("error"); 
-  if (error.paused) {
-        error.play();
-    }else{
-        error.currentTime = 0
-    }
+    
+    console.log("playError");
+    
 } 
 
 function playWin() { 
-var win = document.getElementById("win"); 
-  if (win.paused) {
-        win.play();
-    }else{
-        win.currentTime = 0
-    }
+
+      console.log("playWin"); 
+    
 } 
 
 function playFail() { 
-var fail = document.getElementById("fail"); 
-  if (fail.paused) {
-        fail.play();
-    }else{
-        fail.currentTime = 0
-    }
+
+      console.log("playFail");
+    
 }
 
 
@@ -409,7 +397,7 @@ function showAlarm(text){
 
 function hideAlarm() {
          var AlarmMessage=document.getElementsByClassName("AlarmMessage");
-         console.log(    AlarmMessage[0]);
+    
          AlarmMessage[0].innerHTML="";
              var tmp=document.getElementsByClassName("Alarm");
              tmp[0].style.display="none";  
