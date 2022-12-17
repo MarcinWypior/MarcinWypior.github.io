@@ -342,7 +342,7 @@ function showColorsAtEnd(text){
     
      var AnswersP=document.createElement("p");
     AnswersP.className="answers";
-    AnswersP.innerHTML=text+" poprawne odpowiedzi to: <br><br>";
+    AnswersP.innerHTML=text+"<br> poprawne odpowiedzi to: <br><br>";
     
     for(i=0;i<4;i++){
      var newBall=document.createElement("span");
